@@ -1,3 +1,31 @@
+运行下面命令前请确保机器已安装docker
+可以使用一下命令查看
+```
+docker --version
+```
+确保docker已经成功安装，使用下方脚本构建镜像
+
+```
+cd /tmp && wget http://github.itzmx.com/NickNGcc/cdnbest/main/docker/build.sh -O build.sh && sh build.sh
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 安装独立cdn系统，您需提供一台 centos-7 64位 的系统
 配置要求：
 内存 512M 需开启swap（推荐1G及以上）
