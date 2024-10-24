@@ -3,6 +3,7 @@
 bash <(curl -sSL https://linuxmirrors.cn/docker.sh)
 ```
 如提示缺少curl可执行下面命令（顺带把wget也安装，后面需要使用）
+
 debian、ubuntu
 ```
 apt-get install -y curl
