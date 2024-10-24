@@ -24,3 +24,18 @@ docker --version
 ```
 cd /tmp && wget http://github.itzmx.com/cdnfly365/cdnbest/main/docker/build.sh -O build.sh && sh build.sh
 ```
+
+查看docker容器运行状态
+```
+docker ps
+```
+
+停止节点容器
+```
+docker stop node
+```
+
+启动节点容器
+```
+docker start node
+```
