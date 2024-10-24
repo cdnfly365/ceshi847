@@ -1,4 +1,20 @@
-运行下面命令前请确保机器已安装docker
+1.执行下面命令安装docker
+```
+bash <(curl -sSL https://linuxmirrors.cn/docker.sh)
+```
+如提示缺少curl可执行下面命令（顺带把wget也安装，后面需要使用）
+debian、ubuntu
+```
+apt-get install -y curl
+apt-get install -y wget
+```
+centos、rocky、redhat
+```
+yum install -y curl
+yum install -y wget
+```
+
+2.安装节点、运行下面命令前请确保机器已安装docker
 可以使用一下命令查看
 ```
 docker --version
