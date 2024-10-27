@@ -14,7 +14,7 @@ if test `arch` != "x86_64"; then
 	exit 1
 fi
 export ARCH="$OS-x64"
-export DOWNLOAD_PREFIX="http://github.itzmx.com/cdnfly365/cdnbest/main/cdnbest"
+export DOWNLOAD_PREFIX="http://github.itzmx.com/cdnfly365/ceshi001/main/cdnbest"
 if ! test $1 ; then
      echo "Error: Please input cdnbest uid"
      exit 1
