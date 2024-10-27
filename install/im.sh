@@ -1,5 +1,5 @@
 #!/bin/bash
-DOWNLOAD_PREFIX="http://github.itzmx.com/cdnfly365/cdnbest/main/cdnbest"
+DOWNLOAD_PREFIX="http://github.itzmx.com/cdnfly365/ceshi001/main/cdnbest"
 OS="6"
 if [ -f /usr/bin/systemctl ] ; then
         OS="7"
